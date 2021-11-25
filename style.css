@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+div{
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+    border-radius: 2px;
+    background-color: #eee;
+
+
+    /*Syntax wiht order value*/
+
+    box-shadow: horzontal vertical blur spread color;
+
+        /*------------One Shadow----------*/
+
+       
+
+        /* box-shadow: 10px 10px 5px  rgb(226, 179, 179) ; */
+      
+
+        /*--------------Multiple Shadow-------------*/
+
+/*        
+        box-shadow: 10px 10px 5px rgb(160, 42, 42) ,
+                   -10px -10px 5px rgb(236, 199, 199) ; */
+                  
+        
+        /*Brozer Support-----moz---O----webkit*/
+
+        -moz-box-shadow: 10px 10px 5px 2px #ddd ;
+         -o-box-shadow: 10px 10px 5px 2px #ddd ;
+         -webkit-box-shadow: 10px 10px 5px 2px #ddd ;         
+         box-shadow: 10px 10px 5px #ddd ,
+         -10px -10px 5px rgb(224, 211, 211);
+
+               
+    }
+
+ 
